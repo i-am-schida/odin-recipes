@@ -1,0 +1,23 @@
+* {
+  background-color: rgb(255, 233, 146);
+  font-family: Papyrus, Copperplate, Arial;
+}
+
+h1, h3 {
+  color: red;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: Copperplate, Papyrus, Arial;
+}
+
+.bold-text {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  text-indent: 5%;
+}

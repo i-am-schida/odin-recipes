@@ -37,3 +37,14 @@ p {
 #enchilada, #omelette, #blt {
   text-align: center;
 }
+
+.recipes-container {
+  display: flex; /*--flexbox--*/
+  align-items: center;
+  justify-content: center;
+}
+
+#ul1 {
+  list-style: none;
+}
+

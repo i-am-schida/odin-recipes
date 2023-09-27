@@ -2,7 +2,7 @@
   background-color: rgb(255, 233, 146);
   font-family: Papyrus, Copperplate, Arial;
 }
-
+/*<--------------------------------->*/
 h1, h3 {
   color: red;
   text-align: center;
@@ -21,7 +21,7 @@ h3 {
 p {
   text-indent: 5%;
 }
-
+/*<--------------------------------->*/
 #enchilada img {
   width: 900px;
   height: auto;
@@ -37,7 +37,7 @@ p {
 #enchilada, #omelette, #blt {
   text-align: center;
 }
-
+/*<--------------------------------->*/
 .recipes-container {
   display: flex; /*--flexbox--*/
   align-items: center; /* vertically align */

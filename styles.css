@@ -28,6 +28,12 @@ p {
   max-width: 100%;
 }
 
-#enchilada {
+#omelette img {
+  height: 600px;
+  width: auto;
+  max-width: 100%;
+}
+
+#enchilada, #omelette {
   text-align: center;
 }

@@ -21,3 +21,13 @@ h3 {
 p {
   text-indent: 5%;
 }
+
+#enchilada img {
+  width: 900px;
+  height: auto;
+  max-width: 100%;
+}
+
+#enchilada {
+  text-align: center;
+}

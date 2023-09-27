@@ -40,11 +40,21 @@ p {
 
 .recipes-container {
   display: flex; /*--flexbox--*/
-  align-items: center;
+  align-items: center; /* vertically align */
   justify-content: center;
+  flex-wrap: wrap; /* makes items wrap to the next line when space runs out */
 }
 
 #ul1 {
-  list-style: none;
+  list-style: none; /* removes bullet points */
+  flex: 1; /* lets the ul take up max horizontal space available */
+  text-align: center; /* centers list items horizontally */
+  padding: 0; /* removes dault padding */
+  margin: 0; /* removes dault margin */
 }
 
+.recipes-container img {
+  max-width: 100%; /* makes the img responsive */
+  height: auto;
+  flex: 1; /* lets the img take up max horizontal space available */
+}

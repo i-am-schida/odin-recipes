@@ -88,6 +88,18 @@ p {
   font-size: large;
 }
 
+.bottom-half {
+  display: flex;
+}
+
+.left-half {
+  width: 50%;
+}
+
+.right-half {
+  width: 50%;
+}
+
 /* Button: 'Order now!' button */
 
 .button {

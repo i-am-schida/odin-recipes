@@ -8,6 +8,10 @@ h1, h3 {
   text-align: center;
 }
 
+h1 {
+  margin-bottom: -21.44px;
+}
+
 h3 {
   text-decoration: underline;
   font-family: Copperplate, Papyrus, Arial;
@@ -67,4 +71,20 @@ p {
 
 .steps {
   line-height: 1.8; /* to add space between the lines */
+}
+/* order now button */
+.button {
+  color: black;
+  border-color: red;
+  font-family: Copperplate, Papyrus, Arial;
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+  border-color: white;
+  transition: background-color 6s, color 1s, border-color 3s;
 }

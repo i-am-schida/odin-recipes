@@ -1,6 +1,8 @@
 * {
   background-color: rgb(255, 233, 146);
   font-family: Papyrus, Copperplate, Arial;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 /*<--------------------------------->*/
 h1, h3 {
@@ -49,6 +51,16 @@ p {
   max-width: 100%; /* makes the img responsive */
   height: auto;
   flex: 1; /* lets the img take up max horizontal space available */
+}
+
+.odins-fav {
+  font-size: xx-large;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: white;
+  transition: color 0.3s;
 }
 
 /*<-------------Recipes Page(s)------------->*/

@@ -15,39 +15,26 @@ h1 {
 h3 {
   text-decoration: underline;
   font-family: Copperplate, Papyrus, Arial;
-}
-
-.bold-text {
-  color: red;
-  text-decoration: underline;
+  font-size: x-large;
 }
 
 p {
   text-indent: 5%;
-}
-/*<--------------------------------->*/
-#enchilada img {
-  width: 900px;
-  height: auto;
-  max-width: 100%;
+  font-size: large;
 }
 
-#omelette img, #blt img  {
-  width: auto;
-  height: 600px;
-  max-width: 100%;
+/*<-------------Home Page------------->*/
+
+.hometitle {
+  font-size: 60px;
 }
 
-#enchilada, #omelette, #blt {
-  text-align: center;
-}
-/*<--------------------------------->*/
 .recipes-container {
-  display: flex; /*--flexbox--*/
+  display: flex; 
   align-items: center; /* vertically align */
   justify-content: center;
   flex-wrap: wrap; /* makes items wrap to the next line when space runs out */
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #ul1 {
@@ -64,6 +51,29 @@ p {
   flex: 1; /* lets the img take up max horizontal space available */
 }
 
+/*<-------------Recipes Page(s)------------->*/
+
+#enchilada img {
+  width: 900px;
+  height: auto;
+  max-width: 100%;
+}
+
+#omelette img, #blt img  {
+  width: auto;
+  height: 600px;
+  max-width: 100%;
+}
+
+#enchilada, #omelette, #blt {
+  text-align: center;
+}
+
+.bold-text {
+  color: red;
+  text-decoration: underline;
+}
+
 .origin-p {
   line-height: 2.5; /* to add space between the lines */
   margin-bottom: -16px; /* took away space between the 2 <p>'s */
@@ -71,8 +81,15 @@ p {
 
 .steps {
   line-height: 1.8; /* to add space between the lines */
+  font-size: large;
 }
-/* order now button */
+
+.ingredients {
+  font-size: large;
+}
+
+/* Button: 'Order now!' button */
+
 .button {
   color: black;
   border-color: red;

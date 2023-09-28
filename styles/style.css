@@ -43,6 +43,7 @@ p {
   align-items: center; /* vertically align */
   justify-content: center;
   flex-wrap: wrap; /* makes items wrap to the next line when space runs out */
+  font-size: 40px;
 }
 
 #ul1 {
@@ -57,4 +58,13 @@ p {
   max-width: 100%; /* makes the img responsive */
   height: auto;
   flex: 1; /* lets the img take up max horizontal space available */
+}
+
+.origin-p {
+  line-height: 2.5; /* to add space between the lines */
+  margin-bottom: -16px; /* took away space between the 2 <p>'s */
+}
+
+.steps {
+  line-height: 1.8; /* to add space between the lines */
 }
